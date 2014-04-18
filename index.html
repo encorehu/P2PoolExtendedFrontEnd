@@ -296,16 +296,16 @@
 							  <td><span id="difficulty" class="label label-inverse"></span></td>
 							</tr>
 							<tr>
-							  <td><h5>Node uptime</h5></td>
+							  <td><h5>节点上传时长</h5></td>
 							  <td><span id="uptime_days" class="label label-inverse"></span> (<span id="uptime_hours"></span> hours)</td>
 							  <td></td>
-							  <td><h5>Peers</h5></td>
+							  <td><h5>Peers进出量</h5></td>
 							  <td><span id="peers_out"></span> out, <span id="peers_in"></span> in</td>
 							</tr>
-							  <td><h5>Current block value</h5></td>
+							  <td><h5>当前块含金量</h5></td>
 							  <td><span id="block_value" class="label label-inverse"></span> <span class="symbol"></span></td>
 							  <td></td>
-							  <td><h5>Expected time to block</h5></td>
+							  <td><h5>预期出块时间</h5></td>
 							  <td><span id="time_to_block" class="label"></span></td>
 							</tr>
 						</tbody>
@@ -314,11 +314,11 @@
 				<br/>
 				<div style="width: 1340px">
 					<div class="well" style="width:600px; float: left">
-						<h4>Local Shares</h4>
+						<h4>本地节点提供股份情况</h4>
 						<div id="ShareChart" width="450" height="450"></div>
 					</div>
 					<div class="well" style="width:600px; float: right">
-						<h4>Global pool speed</h4>
+						<h4>全球矿池速度</h4>
 						<div id="SpeedChart" width="450" height="450"></div>
 					</div>
 				</div>
@@ -326,12 +326,12 @@
 			</center>
 		</div>
 	  	<div class="tab-pane" id="shares">
-			<p>Best share: <span id="best_share"></span></p>
-			<p>Verified heads: <span id="verified_heads"></span></p>
-			<p>Heads: <span id="heads"></span></p>
-			<p>Verified tails: <span id="verified_tails"></span></p>
-			<p>Tails: <span id="tails"></span></p>
-			<p>My Shares: <span id="my_share_hashes"></span></p>
+			<p>最佳股份: <span id="best_share"></span></p>
+			<p>已验证块头信息: <span id="verified_heads"></span></p>
+			<p>块头: <span id="heads"></span></p>
+			<p>已验证块尾信息: <span id="verified_tails"></span></p>
+			<p>块尾: <span id="tails"></span></p>
+			<p>我的股份: <span id="my_share_hashes"></span></p>
 		</div>
 	  	<div class="tab-pane" id="lastblocks">
 			<table id="blocks" class="table table-striped table-hover">
